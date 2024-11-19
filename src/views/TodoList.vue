@@ -8,7 +8,7 @@
         <input v-model="date" type="date"
           class="lg:outline-none lg:rounded-md outline-none mb-4 ml-6 py-4 px-8 lg:py-3 lg:-mt-2 lg:px-3">
         <button @click="addText"
-          class="bg-cyan-800 lg:rounded-md lg:text-white lg:px-4 lg:-mt-2 lg:ml-4 text-white rounded-md py-2 px-12 ml-2 mb-4 lg:bg-cyan-800 ">Add Task</button>
+          class="bg-cyan-800 lg:rounded-md lg:text-black lg:px-4 lg:-mt-2 lg:ml-4 text-white rounded-md py-2 px-12 ml-2 mb-4 lg:bg-white lg:hover:scale-125 ">Add Task</button>
       </div>
       <div>
         <div v-for="(task, index) in tasks" :key="index"
