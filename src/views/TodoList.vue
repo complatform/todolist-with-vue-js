@@ -78,8 +78,6 @@ export default {
       }
 
       this.saveTaskToLocalStorage(); 
-
-
       this.task = '';
       this.date = '';
     },
